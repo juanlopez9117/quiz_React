@@ -7,24 +7,24 @@ import model_6 from '../../imagenes/model_6.jpg'
 const Section = () =>{
     return (
         <section className="section">
-            <button>
-                <img className='model' src={model_1} alt=""/>
-            </button>
-            <button>
-                <img className='model' src={model_2} alt=""/>
-            </button>
-            <button>
-                <img className='model' src={model_3} alt=""/>
-            </button>
-            <button>
-                <img className='model' src={model_4} alt=""/>
-            </button>
-            <button>
-                <img className='model' src={model_5} alt=""/>
-            </button>
-            <button>
-                <img className='model' src={model_6} alt=""/>
-            </button>
+           <a href="">
+           <img className='model' src={model_1} alt=""/>
+           </a>
+           <a href="">
+           <img className='model' src={model_2} alt=""/>
+           </a>
+           <a href="">
+           <img className='model' src={model_3} alt=""/>
+           </a>
+           <a href="">
+           <img className='model' src={model_4} alt=""/>
+           </a>
+           <a href="">
+           <img className='model' src={model_5} alt=""/>
+           </a>
+           <a href="">
+           <img className='model' src={model_6} alt=""/>
+           </a>
         </section>
     )
 }
